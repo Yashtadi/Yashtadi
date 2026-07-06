@@ -1,29 +1,34 @@
-<h1 align="center">Hi, I'm Yash 👋</h1>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yash%20Tadi&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20%26%20Systems%20Engineer%20%7C%20ML%20for%20Battery%20Diagnostics%20%7C%20PESU%20%2728&descAlignY=55&descSize=15" />
+</div>
 
-<p align="center">
-B.Tech CSE @ PES University, Bangalore &nbsp;|&nbsp; Backend & Systems Engineering &nbsp;|&nbsp; ML for Battery Diagnostics
-</p>
-
-<p align="center">
-<a href="https://www.linkedin.com/in/yash-tadi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:yashtadi17046@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
----
-
-### About Me
-
-I'm a third-year CSE student who likes building things that hold up under real load — queues that don't drop jobs, reviews that survive a webhook timeout, containers that actually isolate. Currently a **Research Intern at PESU Research Foundation**, working on a physics + ML framework for battery health prediction.
-
-- 🔋 Building a **self-healing ML pipeline** (ECM + EIS + drift detection) for battery State-of-Health prediction on a 228-cell, 1.1M+ measurement dataset
-- 🛠️ Building **Revio**, an AI code-review service that reviews GitHub PRs with RAG-based repo context
-- 🐧 Wrote a **multi-container runtime from scratch in C** — namespaces, a custom kernel module, the works
-- 📚 Sharpening DSA fundamentals in C++ (Striver's A2Z, NeetCode 150, weekend Codeforces/AtCoder)
-- 🎓 CGPA 8.38, CNR Merit Scholarship (Top 25% of cohort)
+<div align="center">
+  <a href="https://www.linkedin.com/in/yash-tadi">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:yashtadi17046@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/Yashtadi">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white" />
+  </a>
+</div>
 
 ---
 
-### Featured Projects
+## Hey, I'm Yash
+
+B.Tech CSE at PES University, Bengaluru. I like building the parts of a system that aren't glamorous but are the reason it doesn't fall over — the retry logic, the WAL, the namespace isolation nobody notices until it's missing.
+
+Two projects that reflect how I think about this:
+
+**Revio** — an AI code-review service that reviews GitHub PRs inside GitHub's 10-second webhook window. The interesting part wasn't calling an LLM; it was making that reliable — signature-verified webhooks, a Redis-backed queue, idempotent event handling, and RAG over the codebase so feedback isn't just diff-blind.
+
+**Battery SOH Research (PESU Research Foundation)** — a self-healing ML framework for predicting battery health, combining equivalent-circuit physics (ECM/EIS) with drift detection and adaptive retraining, built on a 228-cell, 1.1M+ measurement dataset. The goal is a model that notices when the real world stops matching its assumptions.
+
+---
+
+## Featured Projects
 
 | Project | Stack | Highlights |
 |---|---|---|
@@ -35,62 +40,67 @@ I'm a third-year CSE student who likes building things that hold up under real l
 
 ---
 
-### Tech Stack
+## Tech Stack
 
 **Languages**
-<br>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![SQL](https://img.shields.io/badge/sql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **Backend**
-<br>
-<img src="https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+
+![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
 **Frontend**
-<br>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white" />
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 **Databases**
-<br>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
+
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 **Infra & Tools**
-<br>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github_actions-%232088FF.svg?style=for-the-badge&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-### GitHub Stats
+## GitHub Stats
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Yashtadi&show_icons=true&theme=default&hide_border=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Yashtadi&hide_border=true" height="165" />
-</p>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yashtadi&theme=tokyonight&hide_border=true" />
+</div>
 
----
-
-### Leadership & Activities
-
-- **Student Body Head, PES University** — Head of Maaya 2026, leading 50+ volunteers across logistics, sponsorships, and technical operations for a 500+ participant event
-- **Tech Head, Nexus AWS Champs Club, PES University** — Coordinating technical infrastructure for cloud workshops (AWS EC2, S3, IAM)
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yashtadi&theme=tokyo-night&hide_border=true&area=true" />
+</div>
 
 ---
 
-<p align="center"><i>Open to SDE internships and full-time roles — feel free to reach out.</i></p>
+## Leadership & Activities
+
+- **Student Body Head, PES University** — Head of Maaya 2026, leading 50+ volunteers across logistics, sponsorships, hospitality, and technical operations for a 500+ participant event
+- **Tech Head, Nexus AWS Champs Club, PES University** — Coordinating technical infrastructure for cloud workshops covering AWS EC2, S3, and IAM
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+</div>
