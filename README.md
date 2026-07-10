@@ -1,4 +1,4 @@
-# 💫 About Me:
+# About Me:
 I'm a third-year CSE student at PES University, Bengaluru (CGPA 8.38, Top 25%), currently working as a Research Intern at PESU Research Foundation. There, I'm building a self-healing ML framework for battery health prediction — fusing equivalent-circuit physics (ECM/EIS) with drift detection and adaptive retraining across a 228-cell, 1.1M+ measurement dataset.<br>That same instinct for systems that hold up under real conditions carries into my own projects. I've built an AI code-review service that reviews GitHub PRs inside GitHub's 10-second webhook window, a Linux container runtime backed by a custom kernel module, and a distributed reservation system that survives node failure without losing a booking. None of them are demos — each had to stay correct under concurrency, load, or failure.<br>I'm looking for SDE roles where that kind of engineering — the retry logic, the write-ahead log, the lock that actually holds — is the job, not an afterthought.
 
 
